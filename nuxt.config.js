@@ -41,6 +41,79 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    // [
+    //   '@nuxtjs/firebase',
+    //   {
+    //     config: {
+    //       development: {
+    //         apiKey: "AIzaSyB8TmzFGay-sxch4Y9WHXmhAaKlUYYBvf8",
+    //         authDomain: "samsung-fc1e8.firebaseapp.com",
+    //         databaseURL: "https://samsung-fc1e8.firebaseio.com",
+    //         projectId: "samsung-fc1e8",
+    //         storageBucket: "samsung-fc1e8.appspot.com",
+    //         messagingSenderId: "712277440735",
+    //         appId: "1:712277440735:web:be1bd020d43632190fd16a",
+    //         measurementId: "G-01MQTN9JJE"
+
+    //       },
+    //       services: {
+    //         firestore: true
+    //       },
+    //       production: {
+    //         apiKey: "AIzaSyB8TmzFGay-sxch4Y9WHXmhAaKlUYYBvf8",
+    //         authDomain: "samsung-fc1e8.firebaseapp.com",
+    //         databaseURL: "https://samsung-fc1e8.firebaseio.com",
+    //         projectId: "samsung-fc1e8",
+    //         storageBucket: "samsung-fc1e8.appspot.com",
+    //         messagingSenderId: "712277440735",
+    //         appId: "1:712277440735:web:be1bd020d43632190fd16a",
+    //         measurementId: "G-01MQTN9JJE"
+    //       }
+    //     },
+    //     customEnv: false,
+    //     onFirebaseHosting: false,
+    //     services: {
+    //       auth: {
+    //         persistence: 'local',
+    //         initialize: {
+    //           onAuthStateChangedMutation: "SET_AUTH_USER",
+    //           onAuthStateChangedAction: null,
+    //         },
+    //         ssr: {
+    //           // !! NEVER deploy a service account file to github or to a publicly accessible folder on your server !!
+    //           credential: '~/assets/firebase/serviceAccount.json',
+
+    //           // Experimental Feature, use with caution.
+    //           serverLogin: {
+    //             sessionLifetime: 60 * 60 * 1000, // one hour
+    //             loginDelay: 50 // minimal recommended delay
+    //           }
+    //         }
+    //       },
+    //       firestore: true,
+    //       functions: {
+    //         location: 'us-central1', // Default
+    //         emulatorPort: 12345
+    //       },
+    //       storage: true,
+    //       realtimeDb: true,
+    //       performance: true,
+    //       analytics: true,
+    //       remoteConfig: {
+    //         settings: {
+    //           fetchTimeoutMillis: 60000, // Default
+    //           minimumFetchIntervalMillis: 43200000 // Default
+    //         },
+    //         defaultConfig: {
+    //           welcome_message: "Welcome"
+    //         }
+    //       },
+    //       messaging: {
+    //         createServiceWorker: true
+    //       }
+    //     }
+    //   }
+    // ]
   ],
   /*
   ** vuetify module configuration
@@ -70,7 +143,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
     }
   }
 }

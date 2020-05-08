@@ -2,7 +2,9 @@
   <v-app dark>
 
     <v-content>
+
       <v-container>
+
         <nuxt />
       </v-container>
     </v-content>
@@ -17,7 +19,11 @@
 </template>
 
 <script>
+import Appbar from "~/components/Appbar.vue";
 export default {
+  components: {
+    Appbar
+  },
   data() {
     return {
       clipped: false,
